@@ -8,6 +8,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -20,12 +21,23 @@
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+                        <button id="theme-toggle" onclick="toggleTheme()">
+                🌙
+            </button>
         </div>
     </nav>
     <nav id="hamburger-nav">
         <div class="logo"><span>K</span>apil <span>M</span>eghwanshi</div>
         <div class="hamburger-menu">
-            <div class="hamburger-icon" onclick="toggleMenu()">
+            <button id="theme-toggle-mobile" onclick="toggleTheme()">
+    🌙
+</button>
+
+<div class="hamburger-icon" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
                 <span></span>
                 <span></span>
                 <span></span>
